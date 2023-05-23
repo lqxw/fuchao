@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*rest css*/
+html{width:100%;min-height:100%;outline:0;font-size:20px;font-family: Helvetica, arial, sans-serif;-webkit-text-size-adjust:none;}
+body,dd,div,dl,figure,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,textarea,ul{margin:0;padding:0;}
+body{background-color:#fff;color:#333;font-family: Helvetica, arial, sans-serif;}
+ol,ul{list-style:none;}
+img{border:none;vertical-align:middle;}
+a{outline:0;border:0 none;text-decoration:none;-webkit-tap-highlight-color:transparent;color:#333333;}
+.clearfix:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0;content:'\200B';}
+.clearfix{zoom:1;}
+body {width:100%;font:12px/1.5 "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",helvetica,arial,sans-serif;
+width:expression(document.body.clientWidth <= 1200? "1200px": "auto");/*解决浏览器窗口缩小时网页存在的问题*/min-width:1200px;/*解决浏览器窗口缩小时网页存在的问题*/overflow-x:hidden;}
+em,i{font-style:normal;}
+.l{float:left;}
+.r{float:right;}
+.oe{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;}
+textarea{-webkit-appearance: none;}   
+/****************页面公共样式*************************/
+.img-cover {width: 100%;height: 100%;max-width: 100%;max-height: 100%;object-fit: cover;}
+.box{max-width: 1520px;width: 95%;margin: 0 auto;}
+.blockbox{max-width: 1200px;width: 95%;margin: 0 auto;}
+.header{position: fixed;top:0;left:0;width:100%;z-index: 99;height: 80px;background: #a89d87;line-height: 80px;}
+.header .box{position: relative;}
+.header .box .logo{position: absolute;width: 440px;text-align: center;margin-left: -220px;left:50%;top:0;}
+.header .box .logo a{color: #fff;font-size: 49px;}
+.header .box  .nav li{float: left;font-size: 20px;font-weight: 700;margin-right: 40px;position: relative;height: 80px;line-height: 80px;padding-left: 20px;}
+.header .box  .nav li a{color: #fff}
+.header .box  .nav li:nth-child(3){float:right;margin-left:30px;}
+.header .box  .nav li:nth-child(4){float:right;margin-right: 0;}
+.header .box  .nav li::before{width:0px;height: 4px;background: #fff;display: block;position: absolute;left:0;content: '';top:39px;}
+.header.fixed{background: #a89d87;box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.2);}
+
+.banner{width: 100%;height: 86vh;overflow: hidden;position: relative;}
+.banner .img{width: 100%;height: 100%;overflow: hidden;position: absolute;z-index: 9;top:0;left:0;}
+.banner .blockbox{position: relative;z-index: 10;height: 100%;}
+.banner .blockbox .txt{color: #fff;font-size: 36px;position: absolute;bottom:60px;left:0;letter-spacing: 2px;}
+
+.comment{text-align: center;font-size: 30px;font-weight:700;color: #000;letter-spacing: 2px;}
+.contact_header{text-align: center;font-size: 20px; margin-top: 30px}
+.contact_body{font-size: 15px; margin-top: 40px}
+
+.indexpart01{padding:40px 0;background: #a89d87;overflow: hidden;width:100%;}
+.indexpart01 .cont{width:100%;overflow: hidden;margin-top: 30px;}
+.indexpart01 .cont .img{width: 100%;height: 597px;overflow: hidden;}
+.indexpart01 .cont p.txt{color:#e1dde1;font-size: 15px;line-height: 1.8;text-align: center;margin-top: 20px;margin-bottom: 10px; text-align:justify}
+
+
+.right{width:58px;height: 58px;background: #aca18d;border-radius: 100%;position: fixed;right:30px;bottom:60px;z-index: 100;cursor:pointer;}
+.right img{margin:10px auto;display: block;}
+.right:hover{box-shadow: 5px 10px 10px rgba(0,0,0,.5)}
+
+.leftbox{float: left;width: 48%;margin-top: 50px;}
+.rightbox{width: 48%;margin-top: 50px;float: right;}
+
+.indexpart02{padding:100px 0; overflow: hidden;width:100%; float: left}
+.indexpart02 .cont{margin-top: 30px ;overflow: hidden;}
+.indexpart02 .cont a{display: block;float: left;width:31.3%;height: 510px;overflow: hidden;margin-bottom: 30px;margin-right:30px;}
+.indexpart02 .cont a:nth-child(3n){margin-right:0}
+
+.indexpart03{padding-top:100px; padding-bottom:30px; overflow: hidden;width:100%; float: left}
+
+.galary_image {width:25%; margin-left:7%; margin-bottom:20px}
